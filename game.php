@@ -3341,4 +3341,3 @@ $ms = ($end - $start) * 1000;
 echo sprintf('Ping: %sms', $ms);
 ?>
 </body>
-<footer id="footer"><font font-family="Arial" size=1 color=purple><a href="https://bitnix.co">Powered By Tunnely, a BitNix LLC Company.</a></footer>
