@@ -15,7 +15,7 @@
 * Shared usernames. If two users have the same username; nothing is implemented to ensure duplication. A simple parse of cookies can be added to ensure strict client uploaded data. (If you decide to add this, basic discord auth can be implemented to sign in via discord.)
 * Ensure your on a higher version of PHP then 5.2 to mitigate against CVE-2007-3806. When a user wins, glob is used to explode the dir of users to list players. (Also a potental RCE to break out of glob/path traversal. Patched using "htmlspecialchars".)
 * Enable mod_security within Apache if you choose to use this script. As stated before, this code is at a novice level. I won't be updating this code as this script is several years old when I was new to PHP.
-#### As it stands, this script is pretty “safe” to upload on a web server and run as is. Just ensure you have the newest version of PHP and expect jank experiences.
+#### As it stands, this script is pretty “safe” to upload on a web server and run as is. Just ensure you have the newest version of PHP and expect jank experiences. Side note, why all the documentation for a borderline shitty script? I just would like to ensure whoever is downloading this for their discord server/to tinker with understands how to stay safe and knows of the potential risks of old code from a foreign computer. Stay safe out there, don’t get shell’d :). 
 ## Screenshots
 #### Menu
 ![](https://nabyte.com/imgs/96ada819c77a66e029ac6559d938b4fb8ba96e7e1.png)
